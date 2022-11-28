@@ -1,0 +1,220 @@
+@import '../../sass/variables.scss';
+@import '../../sass/mixins.scss';
+
+.card {
+    // FUNCTIONALITY
+    perspective: 150rem;
+    position: relative;
+    height: 52rem;
+    min-width: 345px;
+    margin-left: 3.5rem;
+    margin-bottom: 30px;
+
+    &__side{     
+        height: 52rem;
+        transition: all .8s ease;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        backface-visibility: hidden;
+        overflow: hidden;
+        border-radius: 3px;
+        box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
+
+        &--front {
+            background-color: $color-white;
+        }
+
+        &--back {
+            transform: rotateY(180deg);
+            background-blend-mode: screen;
+            background-size: cover;
+            color: black;
+            font-size: 2.2rem;
+            &-1 {
+                 background-image: linear-gradient(to right bottom, rgba(126, 13, 197, 0.938), rgba(155, 7, 160, 0.795));                             
+            }
+
+            &-2 {
+                 background-image: linear-gradient(to right bottom,rgba(0,206,209, 0.8), rgba(64,224,208, 0.8))  
+            }
+
+            &-3{
+                //background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark);
+                background-image: linear-gradient(to right bottom, rgb(169,169,169),rgb(105,105,105))
+            }
+        }
+    }
+ 
+//.card:hover .card__side--front
+    &:hover &__side--front{
+        transform: rotateY(-180deg);
+    }
+
+    &:hover &__side--back{
+        transform: rotateY(0);
+    }
+    
+    
+
+    &__picture{
+        height: 25rem;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-blend-mode: screen;
+        clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+
+
+        &--1 {
+            background-image: linear-gradient(to right bottom,rgba(126, 13, 197, 0.938), rgba(155, 7, 160, 0.795)) 
+            ,url(../../images/sema-decor-zaqatala-p-CE9dp6-El-NLE-1.jpg)                   
+        }
+
+        &--2 {
+            background-image: linear-gradient(to right bottom,rgba(0,206,209, 0.8), rgba(64,224,208,0.8))
+            ,url(../../images/sema-decor-zaqatala-p-CZjsj3g-Nh-A4-5.jpg)                     
+        }
+
+        &--3 {
+           background-image: linear-gradient(to right bottom,rgb(169,169,169),rgb(105,105,105))
+           ,url(../../images/sema-decor-zaqatala-p-CYiy-Ys9t-IR5-2.jpg);          
+        }
+    }
+
+    &__heading {
+        font-size: 1.8rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        text-align: right;
+        color: $color-white;
+        position: absolute;
+        top: 12rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        right: 2rem;
+        width: 50%;       
+    }
+
+    &__heading-span{
+          padding: 1rem 1.5rem;
+          box-decoration-break: clone;
+        &--1 {
+            background-image: linear-gradient(to right bottom,
+             rgba(126, 13, 197, 0.938), 
+             rgba(155, 7, 160, 0.795))  
+        }
+
+        &--2 {         
+           background-image: linear-gradient(to right bottom,
+           rgba(0,206,209, 0.8), 
+           rgba(64,224,208,0.8)) 
+        }
+
+        &--3 {
+            background-image: linear-gradient(to right bottom,
+            rgb(169,169,169), 	
+            rgb(105,105,105))
+        }                
+    }
+
+    &__details {
+        padding: 3rem;    
+        ul {
+            list-style: none;
+            width: 80%;
+            margin: 0 auto;
+            position: relative;
+            
+            li {
+                margin: 0 auto;
+                text-align: center;
+                font-size: 2rem;
+                padding: 1rem;
+                text-transform: uppercase;
+                &:not(:last-child) {
+                    border-bottom: 1px solid $color-grey-light-2;
+                }
+            }
+        }
+    }
+
+    // FRONT SIDE STYLING
+  &__cta {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+        text-align: center;
+    }
+
+    &__price-box {
+        text-align: center;
+        color: black;
+        
+    }
+
+    &__price-only {
+        font-size: 2rem;
+        text-transform: uppercase;
+    }
+
+    &__price-value {
+        font-size: 6rem;
+        font-weight: 100;
+    }
+
+
+    @include respond(phone) { 
+        height: auto;
+        border-radius: 3px;
+        background-color: $color-white;
+        box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
+
+        &__side{     
+            height: auto;
+            position:relative;
+            box-shadow: none;
+                        
+            &--back {
+                transform: rotateY(0);  
+                clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);         
+            }
+        }
+ 
+        //.card:hover .card__side--front
+        &:hover &__side--front{
+            transform: rotateY(0);
+        }
+
+        .card-details{
+            padding: 1rem 3rem;
+        }
+        
+    &__cta {
+            position: relative;
+            top: 0;
+            left: 0;
+            transform: translate(0);
+            width: 100%;  
+            padding: 7rem 4rem 4rem 4rem;         
+        }
+    
+        &__price-box {
+            margin-bottom: 3rem;
+        }
+    
+        &__price-only {
+            font-size: 1.4rem;
+            text-transform: uppercase;
+        }
+    
+        &__price-value {
+            font-size: 4rem;
+        }
+    }
+}

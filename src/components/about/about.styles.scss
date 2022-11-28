@@ -1,0 +1,62 @@
+@import '../../sass/variables.scss';
+@import '../../sass/mixins.scss';
+
+
+.section-about {
+  //  padding: 15rem 0;
+  //  background-image: linear-gradient(to right bottom, $turqoise-ligh, $turqoise-dark);
+    margin-top: 12rem;
+    @include respond(tab-port) {
+        padding: 10rem 0;
+    }
+}
+
+.about {
+    background-image: linear-gradient(105deg, 
+    rgba($color-white, .9) 0%,
+    rgba($color-white, .9) 50%,
+    transparent 50%),
+    url(../../assets/gallery/about-bg-2.png);
+    background-size: 100%;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, .2);
+    background-size: contain;
+    background-position: center;
+
+    @include respond(tab-land) {
+        background-image: linear-gradient(105deg, 
+        rgba($color-white, .9) 0%,
+        rgba($color-white, .9) 65%,
+        transparent 65%),
+        url(../../assets/gallery/sema-decor-zaqatala-2.jpg);
+        background-size: contain;
+        background-position: center;
+    }
+
+    @include respond(tab-port) {
+        background-image: linear-gradient(to right, 
+        rgba($color-white, .9) 0%,
+        rgba($color-white, .9) 100%);
+      //  url(../../assets/gallery/sema-decor-zaqatala-2.jpg);
+        background-size: contain;
+        background-position: center;
+    }
+
+    &__white-area {
+        width: 50%;
+        padding: 6rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+
+        @include respond(tab-land) {
+            width: 65%;
+        }
+
+        @include respond(tab-port) {
+            width: 100%;
+        }
+    }
+}

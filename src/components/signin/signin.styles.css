@@ -1,0 +1,16 @@
+.sign-in {
+  width: 30vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 1.6rem;
+}
+
+.sign-in .title {
+  margin: 10px 0px;
+}
+/*# sourceMappingURL=signin.styles.css.map */

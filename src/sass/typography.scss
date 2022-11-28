@@ -1,0 +1,82 @@
+@import './variables.scss';
+@import './animations';
+
+
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: $color-grey-dark;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.heading-primary{
+    color : $color-white;
+    text-transform: uppercase;
+    text-align: center;
+    backface-visibility: hidden;
+    margin-bottom: 60px;
+
+    &--main{
+        display: block;
+        font-size: 60px;
+        font-weight: bold;
+        letter-spacing: 35px;
+        animation-name: move-in-left;
+        animation-duration: 5s ;
+     }
+
+     &--sub{
+        display: block;
+        font-size: 20px;
+        font-weight: 800;
+        letter-spacing: 17.4px;
+        animation-name: move-in-right;
+        animation-duration: 5s ;
+    }   
+}
+
+.heading-secondary{
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+   // background-image: linear-gradient(to right ,rgba(126, 13, 197, 0.938), rgba(155, 7, 160, 0.795));
+   // background-image:  linear-gradient(137deg,rgb(0,206,209) 0%, rgb(0,206,209) 50%, rgb(64,224,208) 100%);
+   // background-clip: text;
+   // color: transparent;
+    color: #777;
+    letter-spacing: 2px;
+    transition: all .2s;   
+    &:hover{
+        transform: skewY(2deg) skewX(15deg) scale(1.1);
+        text-shadow: .5rem 1rem 2rem rgba($color-black, .2);
+    }
+}
+
+.heading-tertiary {
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+.paragraph{
+    font-size: 1.6rem;
+    &:not(:last-child){
+        margin-bottom: 3rem;
+    }
+}
+
+

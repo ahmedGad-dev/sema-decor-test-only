@@ -1,0 +1,21 @@
+@import '../../sass/variables.scss';
+
+.logo{
+    display: flex;
+    height: '100%';
+    font-weight: 500;
+    line-height: 55px;
+    font-size: 4.5rem;
+ 
+.logo-text{     
+    background-image: linear-gradient(to right,rgba(0,206,209, 0.67) 50%, rgba(64,224,208, 0.5) 100%);
+    background-clip: text;  
+    color: teal;
+    display: inline;
+  }
+  .color-grey{
+    color: rgb(105, 105, 105);
+    margin-left: 5px;
+  }
+}
+

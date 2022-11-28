@@ -1,0 +1,23 @@
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: '100%';
+  font-weight: 500;
+  line-height: 55px;
+  font-size: 4.5rem;
+}
+
+.logo .logo-text {
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, rgba(0, 206, 209, 0.67)), to(rgba(64, 224, 208, 0.5)));
+  background-image: linear-gradient(to right, rgba(0, 206, 209, 0.67) 50%, rgba(64, 224, 208, 0.5) 100%);
+  background-clip: text;
+  color: teal;
+  display: inline;
+}
+
+.logo .color-black {
+  color: #777;
+  margin-left: 5px;
+}
+/*# sourceMappingURL=logo.css.map */

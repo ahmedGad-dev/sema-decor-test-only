@@ -1,0 +1,26 @@
+.cards-collection{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+   // padding: 0 10rem;
+    max-width: 114rem;
+    flex-wrap: wrap;
+}
+
+.collection-section{
+    margin-top: 10rem;
+}
+
+.heading-secondary{
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+@media(max-width: 900px){
+    .collection-section{
+       margin-top: 0rem;
+    }
+}

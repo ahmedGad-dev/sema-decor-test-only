@@ -1,0 +1,17 @@
+.category-container-1 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+  row-gap: 50px;
+}
+
+.title1 {
+  cursor: pointer;
+  margin-bottom: 25px;
+  font-size: 38px;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=category.styles.css.map */

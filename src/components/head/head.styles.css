@@ -1,0 +1,27 @@
+.head {
+  height: 95vh;
+  background-image: linear-gradient(137deg, rgba(0, 206, 209, 0.2) 0%, rgba(0, 206, 209, 0.2) 50%, turquoise 100%), url(../../images/sema-1.jpg);
+  background-blend-mode: darken, luminosity;
+  overflow: hidden;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 1rem;
+}
+/*# sourceMappingURL=head.styles.css.map */

@@ -1,0 +1,112 @@
+@import '../../../sass/variables.scss';
+
+.effect-btn{
+    &,
+    &:link,
+    &:visited{
+       text-transform: uppercase;
+       color: none;
+       padding: 15px 40px;
+       display: inline-block;
+       transition: all .2s;
+       text-decoration: none;
+       border-radius: 100px;
+       position: relative;
+       border: none;
+       cursor: pointer;
+    }
+    
+    &:hover{
+        transform: translateY(-3px);
+        box-shadow: 0 10px 20px rgba($color-black, .2);
+    
+        &::after{
+            transform: scaleX(1.4) scaleY(1.6);
+            opacity: 0 ;
+          }
+    }
+    
+    &:active,
+    &:focus{
+        outline: none;
+        transform: translateY(-1px);
+        box-shadow: 0 5px 10px rgba($color-black,.2);
+      }
+    
+      &::after{
+        content: '';
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        border-radius: 100px;
+        transition: all .4s;
+    }
+    
+    
+    &--white{
+        background-color: $color-white;
+        color: $color-grey-dark;
+    
+        &::after{
+            background-color: $color-white;
+        }
+     }
+    
+    
+    &--animated{
+        animation-name: move-in-bottom .5s ease-out .75s;
+        animation-fill-mode: backwards;
+      }
+    
+    &--green{
+         background-color: $color-primary ;
+         color: $color-white ;
+
+         &::after{
+          background-color: $color-primary;
+      }
+    }
+
+    &--turqoise{
+      background-color: $turqoise-ligh ;
+      color: $color-white ;
+
+      &::after{
+       background-color: $turqoise-ligh;
+   }
+ }
+
+    &--small{
+      padding: 10px 25px;
+      font-size: 15px;
+    }
+  }
+
+
+    .btn-text{
+      &:link, &:visited {
+         font-size: $default-font-size;
+         color: $color-primary;
+         text-decoration: none;
+         display: inline-block;
+         border-bottom: 1px solid $color-primary;
+         padding: 3px;
+         transition: all .2s;
+      }
+
+      &:hover{
+         background-color: $color-primary;
+         color: white;
+         box-shadow: 0 1rem 2rem rgba($color-black, .15);
+         transform: translateY(-2px);
+      }
+
+      &:active{
+        box-shadow: 0 .5rem 1rem rgba($color-black, .15);
+        transform: translateY(0);
+      }
+    }

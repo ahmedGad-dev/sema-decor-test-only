@@ -152,6 +152,23 @@ const SHOP_DATA = [
         name: 'Golden',
         imageUrl: 'https://i.ibb.co/5MHg6rf/sema-decor-zaqatala-p-CZ6-GRj7t-WSj-5.jpg',
         price: 185
+      },
+      {
+        id: 330,
+        name: 'Wedding Boquet',
+        imageUrl: "https://i.ibb.co/TRkDtp7/Whats-App-Image-2022-11-28-at-8-14-17-PM-1.jpg",
+        price: 20
+      },{
+        id: 331,
+        name: 'Wedding Boquet',
+        imageUrl: "https://i.ibb.co/gZPc2fT/sema-decor-zaqatala-p-CJlnom-BFhq9-1.jpg",
+        price: 20
+      },
+      {
+        id: 332,
+        name: 'Wedding Boquet',
+        imageUrl: "https://i.ibb.co/0rKGmW8/sema-decor-zaqatala-p-CDfl-KWKl17-M-1.jpg",
+        price: 20
       }
     ]
   },
@@ -186,23 +203,26 @@ const SHOP_DATA = [
       },
       {
         id: 27,
-        name: 'Striped Sweater',
-        // imageUrl: 'https://i.ibb.co/KmSkMbH/striped-sweater.png',
-        imageUrl: "/images/shop-img/womens/striped-sweater.png",
+        name: 'Girl Birthday',
+        imageUrl: "https://i.ibb.co/B2VWVZ9/Whats-App-Image-2022-11-08-at-7-46-59-PM-1.jpg",
         price: 45
       },
       {
         id: 28,
-        name: 'Yellow Track Suit',
-        // imageUrl: 'https://i.ibb.co/v1cvwNf/yellow-track-suit.png',
-        imageUrl: "/images/shop-img/womens/yellow-track-suit.png",
+        name: 'Girl Birthday',
+        imageUrl: "https://i.ibb.co/kxdG8FS/Whats-App-Image-2022-11-08-at-7-46-58-PM.jpg",
         price: 135
       },
       {
         id: 29,
-        name: 'White Blouse',
-        // imageUrl: 'https://i.ibb.co/qBcrsJg/white-vest.png',
-        imageUrl: "/images/shop-img/womens/white-vest.png",
+        name: 'Birthday Decor',
+        imageUrl: "https://i.ibb.co/7K1KDWH/Whats-App-Image-2022-11-08-at-7-46-58-PM-3.jpg",
+        price: 20
+      },
+      {
+        id: 30,
+        name: 'Wedding Boquet',
+        imageUrl: "https://i.ibb.co/TRkDtp7/Whats-App-Image-2022-11-28-at-8-14-17-PM-1.jpg",
         price: 20
       }
     ]
@@ -213,41 +233,51 @@ const SHOP_DATA = [
     routeName: 'weddings',
     items: [
       {
-        id: 30,
+        id: 31,
         name: 'Design',
         imageUrl: 'https://i.ibb.co/7JfCpyJ/sema-decor-zaqatala-p-CXWSYOf-Nkg-V-2.jpg',
         price: 325
       },
       {
-        id: 31,
+        id: 32,
         name: 'Design',
         imageUrl: 'https://i.ibb.co/0rKGmW8/sema-decor-zaqatala-p-CDfl-KWKl17-M-1.jpg',
         price: 20
       },
       {
-        id: 32,
+        id: 33,
         name: 'Design',
         imageUrl: 'https://i.ibb.co/sgbBpnV/sema-decor-zaqatala-p-CM7avojlih6-1.jpg',
         price: 25
       },
       {
-        id: 33,
+        id: 34,
         name: 'Design',
         imageUrl: 'https://i.ibb.co/mhdLrH5/sema-decor-zaqatala-p-CInig5-ZFKd-H-2.jpg',
         price: 25
       },
       {
-        id: 34,
-       // name: 'Jean Long Sleeve',
-        imageUrl: 'https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png',
-        //imageUrl: "/images/shop-img/mens/roll-up-jean-shirt.png",
-      //  price: 40
+        id: 35,
+        name: 'Wedding',
+        imageUrl: 'https://i.ibb.co/JHL97Hv/Whats-App-Image-2022-11-28-at-8-14-19-PM.jpg',
+        price: 40
       },
       {
-        id: 35,
-        name: 'Burgundy T-shirt',
-        imageUrl: 'https://i.ibb.co/mh3VM1f/polka-dot-shirt.png',
-        //imageUrl: "/images/shop-img/mens/polka-dot-shirt.png",
+        id: 36,
+        name: 'wedding',
+        imageUrl: 'https://i.ibb.co/S5jqf7b/Whats-App-Image-2022-11-08-at-7-46-59-PM-2.jpg',
+        price: 25
+      },
+      {
+        id: 37,
+        name: 'wedding',
+        imageUrl: 'https://i.ibb.co/c64TvF0/Whats-App-Image-2022-11-08-at-7-46-59-PM-4.jpg',
+        price: 25
+      },
+      {
+        id: 38,
+        name: 'wedding',
+        imageUrl: 'https://i.ibb.co/107Pdk0/Whats-App-Image-2022-11-28-at-8-14-16-PM.jpg',
         price: 25
       }
     ]

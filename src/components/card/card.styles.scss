@@ -217,4 +217,16 @@
             font-size: 4rem;
         }
     }
+
+    @media(max-width: 600px){
+        transform: scale(90%);
+    }
+
+    @media(max-width: 500px){
+        transform: scale(80%);
+    }
+
+    @media(max-width: 400px){
+        transform: scale(70%);
+    }
 }

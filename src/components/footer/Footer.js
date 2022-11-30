@@ -106,12 +106,18 @@ const Wrapper = styled.section`
         margin-bottom: 1rem;
       }
 
-      .effect-btn {
-        width: 20%;
+      .effect-btn {     
         margin-right: 20px;
       }
     }
   }
+
+  @media(max-width: 600px){
+    .contact-form .effect-btn {     
+      margin-right: 0;
+    }
+  }
+
 
   .form-input{
     width: 80%;

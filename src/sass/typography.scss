@@ -36,6 +36,10 @@ body{
         letter-spacing: 35px;
         animation-name: move-in-left;
         animation-duration: 5s ;
+
+        @media(max-width:600px){
+            font-size: 40px;
+        }
      }
 
      &--sub{
@@ -45,6 +49,10 @@ body{
         letter-spacing: 17.4px;
         animation-name: move-in-right;
         animation-duration: 5s ;
+
+        @media(max-width:600px){
+            font-size: 15px;
+        }
     }   
 }
 

@@ -8,6 +8,7 @@ import {useUserContext} from '../../context/user.context'
 import { useCartContext } from '../../context/cart.context'
 import { signOutUser } from '../../utils/firebase/firebase.utils'
 
+
 const Navbar = () => {
   const {currentUser} = useUserContext()
   const {cartOpen} = useCartContext()
@@ -32,7 +33,7 @@ const Navbar = () => {
        </ul>
        
       </div>
-      <Link className="logo-container" to='/'>
+      <Link className="logo-container ml-auto lg:ml-0" to='/'>
         <Logo /> 
       </Link>
      </div>

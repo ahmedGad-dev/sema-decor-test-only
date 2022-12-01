@@ -86,11 +86,11 @@
     }
 
     @media(max-width: 600px){
-      scale: 60%;
+      transform: scale(60%);
     }
 
     @media(max-width: 400px){
-      scale: 40%;
+     transform: scale(40%) ;
     }
   }
 

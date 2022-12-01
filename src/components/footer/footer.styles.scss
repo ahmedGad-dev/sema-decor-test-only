@@ -200,4 +200,10 @@ section {
 		  margin-bottom: 2rem;
 	  }
   }
+
+  @media(max-width:600px){
+	.footer-distributed .footer-center{
+		width: auto
+	}
+  }
   

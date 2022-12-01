@@ -17,10 +17,14 @@ const Footer = () => {
      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
         A molestias delectus enim deserunt facere provident?
      </p>
-     <form action="https://formspree.io/f/xeqndrvw" method="POST" className='contact-form'>      
-       <input type="email" name="email" className='form-input' placeholder='Enter Your Email'/>
-       <EffectButton type='submit' small> Submit </EffectButton>
-     </form>
+
+     <div className="form-container">
+       <form action="https://formspree.io/f/xeqndrvw" method="POST" className='contact-form'>      
+         <input type="email" name="email" className='form-input' placeholder='Enter Your Email'/>
+         <EffectButton type='submit' small> Submit </EffectButton>
+       </form>
+     </div>
+    
 
      <footer className="footer-distributed">
 			<div className="footer-left">
@@ -115,6 +119,14 @@ const Wrapper = styled.section`
   @media(max-width: 600px){
     .contact-form .effect-btn {     
       margin-right: 0;
+      margin-bottom: 5px;
+    }
+
+    .form-container{
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
   }
 
@@ -131,6 +143,17 @@ const Wrapper = styled.section`
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
   }
+
+  @media(max-width: 600px){
+    .form-input {margin-right: 0px;}
+  }
+
+  @media(max-width: 400px){ 
+    .contact-form{ margin-bottom: 0; 
+       .form-input{margin-bottom: 0;}
+    }
+  }
+  
   
   .form-input::placeholder {
     color: var(--clr-black);

@@ -8,12 +8,6 @@
     background-size: cover;
     display: flex;
 
-    @media(max-width: 1024px){
-      .logo{
-        align-self: flex-end;
-      }
-    }
-
 
 .logo-text{     
     background-image: linear-gradient(to right,rgba(0,206,209, 0.67) 50%, rgba(64,224,208, 0.5) 100%);

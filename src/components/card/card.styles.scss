@@ -223,14 +223,15 @@
     }
 
     @media(max-width: 600px){
-        transform: scale(90%);
+        transform: scale(85%);
     }
 
     @media(max-width: 500px){
-        transform: scale(80%);
+        transform: scale(75%);
     }
 
     @media(max-width: 400px){
-        transform: scale(70%);
+        transform: scale(55%);
+        margin-bottom: 0;
     }
 }

@@ -33,7 +33,7 @@ const Navbar = () => {
        </ul>
        
       </div>
-      <Link className="logo-container ml-auto lg:ml-0" to='/'>
+      <Link className="logo-container  p-2" to='/'>
         <Logo /> 
       </Link>
      </div>

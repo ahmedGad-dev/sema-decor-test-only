@@ -1,5 +1,5 @@
 import React from "react";
-import './collection-item.scss'
+import './product-card.styles.scss'
 import CustomButton from '../custom-button/CustomButton'
 import { useCartContext } from "../../context/cart.context";
 

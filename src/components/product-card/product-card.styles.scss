@@ -1,6 +1,7 @@
 .collection-item {
   min-width: 350px;
   display: flex;
+  justify-content: center;
   flex-direction: column;
   height: 350px;
   align-items: center;
@@ -51,5 +52,16 @@
       width: 10%;
     }
   }
+
+@media(max-width: 500px){
+  transform: scale(80%);
+  margin-bottom: 0;
 }
+
+@media(max-width: 400px){
+  transform: scale(70%);
+ 
+ }
+}
+
 

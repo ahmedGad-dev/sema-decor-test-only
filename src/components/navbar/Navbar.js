@@ -1,5 +1,6 @@
 import React, {Fragment} from 'react'
 import Logo from '../logo/Logo'
+import './navbar.styles.scss'
 import {Link, Outlet} from 'react-router-dom'
 import CartIcon from '../cart-icon/cart-icon'
 import {GiHamburgerMenu} from 'react-icons/gi'

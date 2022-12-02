@@ -9,6 +9,14 @@
     @include respond(tab-port) {
         padding: 10rem 0;
     }
+
+    @media(max-width: 600px){
+        margin-top: 8rem;
+    }
+
+    @media(max-width: 400px){
+        margin-top: 2.5rem;
+    }
 }
 
 .about {
@@ -58,5 +66,5 @@
         @include respond(tab-port) {
             width: 100%;
         }
-    }
+      }
 }

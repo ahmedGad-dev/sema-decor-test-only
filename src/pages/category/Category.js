@@ -20,7 +20,7 @@ const Category = () =>{
       <div className='category-container-1'>     
        {products && products.map(product => (
         <ProductCart key={product.id} product={product}  />
-       ))}         
+       )).reverse()}         
       </div>
     </Fragment>  
   )

@@ -222,16 +222,16 @@
         margin-left: 0;
     }
 
-    @media(max-width: 600px){
-        transform: scale(85%);
-    }
 
     @media(max-width: 500px){
-        transform: scale(70%);
+        transform: scale(90%);
+        min-width: 300px;
+
     }
 
     @media(max-width: 400px){
-        transform: scale(40%);
+       // transform: scale(80%);
         margin-bottom: 0;
+        min-width: 270px;
     }
 }

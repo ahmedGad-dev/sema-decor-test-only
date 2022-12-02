@@ -68,7 +68,7 @@ const SignIn = () => {
                <div className="btn-container">
                 <CustomButton type='submit'>Sign In</CustomButton>
                 <CustomButton type='button' onClick={signInWithGoogle} isGoogleSignin> 
-                   Google Sign In <FcGoogle className='icon'/>
+                   Google <FcGoogle className='icon'/>
                 </CustomButton>
              </div>                                                      
            </form>        

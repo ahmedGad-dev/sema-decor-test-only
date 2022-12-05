@@ -7,6 +7,7 @@ import SignInUp from './pages/signIn-signUp/SignInUp'
 import CheckOut from './pages/checkout/CheckOut';
 import Footer from './components/footer/Footer';
 import Navbar from './components/navbar/Navbar'
+import Portfolio from './pages/portfolio/Portfolio';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path='shop/*' element={<Shop/>}/>
           <Route path='sign-in' element={<SignInUp/>}/>
           <Route path='checkout' element={<CheckOut/>}/>
+          <Route path='portfolio' element={<Portfolio/>}/>
         </Route>       
      </Routes>
      <Footer/>

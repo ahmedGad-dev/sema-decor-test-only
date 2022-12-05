@@ -8,16 +8,33 @@
     background-size: cover;
     display: flex;
 
+  @media(max-width: 500px){
+    height: 45px;
+    width: 45px;
+    //transform: scale(80%);;
+  }
+}
 
 .logo-text{     
-    background-image: linear-gradient(to right,rgba(0,206,209, 0.67) 50%, rgba(64,224,208, 0.5) 100%);
-    background-clip: text;  
-    color: teal;
-    display: inline;
+  background-image: linear-gradient(to right,rgba(0,206,209, 0.67) 50%, rgba(64,224,208, 0.5) 100%);
+  background-clip: text;  
+  color: teal;
+  display: inline;
+  font-size: 44px;
+
+  .color-white{
+    color: white;
   }
-  .color-grey{
-    color: rgb(105, 105, 105);
-    margin-left: 5px;
+}
+
+.color-grey{
+  color: rgb(105, 105, 105);
+  margin-left: 5px;
+}
+
+figure{
+  &:hover {
+    transform: scale(100%);
   }
 }
 

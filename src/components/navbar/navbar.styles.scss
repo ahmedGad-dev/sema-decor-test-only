@@ -1,5 +1,6 @@
 .navbar{
     @media(max-width: 500px){
-        min-height: 2rem;
+        min-height: 50px;
+        max-height: 60px;
     }
 }

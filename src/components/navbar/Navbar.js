@@ -46,7 +46,8 @@ const Navbar = () => {
       <li>{currentUser ?
          (<span className='nav-link' onClick={signOutUser}> {''} SignOut {''}</span>) :
          (<Link to='/sign-in' className='nav-link'> Sign In </Link>) 
-      }</li>          
+      }</li>
+      <li className='mr-2'><Link to='portfolio' className='nav-link'>Portfolio</Link></li>          
      </ul>
      <CartIcon/>
     </div>

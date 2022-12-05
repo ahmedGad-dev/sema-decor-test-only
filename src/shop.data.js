@@ -186,7 +186,7 @@ const SHOP_DATA = [
       {
         id: 24,
         name: 'Birthday',
-        imageUrl: 'https://i.ibb.co/yqW8w9L/sema-decor-zaqatala-p-CZj3-PDwtk-Wa-1.jpg',
+        imageUrl: 'https://i.ibb.co/pZ4twQX/Whats-App-Image-2022-11-08-at-7-46-59-PM.jpg',
         price: 20
       },
       {
@@ -241,13 +241,13 @@ const SHOP_DATA = [
       {
         id: 32,
         name: 'Design',
-        imageUrl: 'https://i.ibb.co/0rKGmW8/sema-decor-zaqatala-p-CDfl-KWKl17-M-1.jpg',
+        imageUrl: 'https://i.ibb.co/r2r9nMY/Whats-App-Image-2022-11-28-at-8-14-21-PM.jpg',
         price: 20
       },
       {
         id: 33,
         name: 'Design',
-        imageUrl: 'https://i.ibb.co/sgbBpnV/sema-decor-zaqatala-p-CM7avojlih6-1.jpg',
+        imageUrl: 'https://i.ibb.co/TWMRG8f/Whats-App-Image-2022-11-28-at-8-14-22-PM-1.jpg',
         price: 25
       },
       {
@@ -279,9 +279,83 @@ const SHOP_DATA = [
         name: 'wedding',
         imageUrl: 'https://i.ibb.co/107Pdk0/Whats-App-Image-2022-11-28-at-8-14-16-PM.jpg',
         price: 25
-      }
+      },
+      {
+        id: 39,
+        name: 'Design',
+        imageUrl: 'https://i.ibb.co/0rKGmW8/sema-decor-zaqatala-p-CDfl-KWKl17-M-1.jpg',
+        price: 20
+      },
+      {
+        id: 40,
+        name: 'Design',
+        imageUrl: 'https://i.ibb.co/y6yFprq/Whats-App-Image-2022-11-28-at-8-14-25-PM-1.jpg',
+        price: 20
+      },
+      {
+        id: 41,
+        name: 'Design',
+        imageUrl: 'https://i.ibb.co/5x0sv64/gallery-8.jpg',
+        price: 20
+      },
+      {
+        id: 42,
+        name: 'Design',
+        imageUrl: 'https://i.ibb.co/0fWM4Pj/Whats-App-Image-2022-11-28-at-8-14-20-PM.jpg',
+        price: 20
+      },
+      {
+        id: 43,
+        name: 'Design',
+        imageUrl: 'https://i.ibb.co/RCRp3XP/Whats-App-Image-2022-11-28-at-8-14-17-PM-2.jpg',
+        price: 20
+      },
+      {
+        id: 44,
+        name: 'Design',
+        imageUrl: 'https://i.ibb.co/M7gCMn4/Whats-App-Image-2022-11-28-at-8-14-18-PM.jpg',
+        price: 20
+      },
+      {
+        id: 45,
+        name: 'Design',
+        imageUrl: 'https://i.ibb.co/M9Rmg3b/Whats-App-Image-2022-11-28-at-8-14-25-PM.jpg',
+        price: 20
+      },
+      {
+        id: 46,
+        name: 'Design',
+        imageUrl: 'https://i.ibb.co/NtPZ8mG/Whats-App-Image-2022-11-28-at-8-14-19-PM-3.jpg',
+        price: 20
+      },
+      {
+        id: 47,
+        name: 'Design',
+        imageUrl: 'https://i.ibb.co/d6s6dG0/Whats-App-Image-2022-11-28-at-8-14-20-PM-2.jpg',
+        price: 20
+      },
+      {
+        id: 48,
+        name: 'Design',
+        imageUrl: 'https://i.ibb.co/JdzZz14/about-bg-1.png',
+        price: 20
+      },
+      {
+        id: 49,
+        name: 'Design',
+        imageUrl: 'https://i.ibb.co/x3NktsN/Whats-App-Image-2022-11-08-at-7-50-00-PM-3.jpg',
+        price: 20
+      },
+      {
+        id: 50,
+        name: 'Design',
+        imageUrl: 'https://i.ibb.co/Zm1LK0Q/Whats-App-Image-2022-11-08-at-7-46-58-PM-6.jpg',
+        price: 20
+      },
     ]
   }
 ];
+
+
 
 export default SHOP_DATA;
